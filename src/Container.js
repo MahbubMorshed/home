@@ -11,11 +11,11 @@ import Fireflies from "./components/Fireflies";
 import "./materials/layerMaterial";
 
 import bgUrl from "./resources/bg.jpg";
-import groundUrl from "./resources/ground.jpg";
-import girlUrl from "./resources/girl.jpg";
-import wolfUrl from "./resources/wolf.jpg";
-import splashUrl from "./resources/splash.jpg";
-import owlUrl from "./resources/owl.jpg";
+import groundUrl from "./resources/ground.png";
+import girlUrl from "./resources/girl.png";
+import wolfUrl from "./resources/wolf.png";
+import splashUrl from "./resources/splash.png";
+import owlUrl from "./resources/owl.png";
 
 function Scene({ dof }) {
   const scaleN = useAspect(1600, 1000, 1.05);
